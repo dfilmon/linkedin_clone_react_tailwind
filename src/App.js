@@ -7,6 +7,7 @@ import CTA from './components/CTA.jsx';
 import SignIn from './components/SignIn.jsx';
 import JoinUs from './components/JoinUs.jsx';
 import AppNav from './components/AppMain/AppNav/AppNav.jsx';
+import AppPost from './components/AppMain/AppPost/AppPost.jsx';
 
 export default function App() {
   tailwind.config = {
@@ -27,6 +28,13 @@ export default function App() {
       <CTA /> */}
       {/* <SignIn /> */}
       <AppNav />
+      <div id="mainLayout">
+        <div id="mainLeft">This is left</div>
+        <div id="mainMiddle">
+          <AppPost />
+        </div>
+        <div id="mainRight">This is right</div>
+      </div>
     </div>
   );
 }

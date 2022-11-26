@@ -1,3 +1,32 @@
-h1, p {
+h1,
+p {
   font-family: Lato;
+}
+
+#mainLayout {
+  border: solid;
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+}
+
+#mainLeft {
+  border: solid;
+  border-color: blue;
+  margin: 1em;
+  width: 25%;
+}
+
+#mainMiddle {
+  border: solid;
+  border-color: green;
+  margin: 1em;
+  width: 50%;
+}
+
+#mainRight {
+  border: solid;
+  border-color: red;
+  margin: 1em;
+  width: 25%;
 }
