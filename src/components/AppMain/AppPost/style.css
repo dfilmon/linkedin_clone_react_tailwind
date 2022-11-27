@@ -1,4 +1,12 @@
+#appPostContainer {
+  margin-bottom: 3em;
+}
+
 #container {
   border: solid;
   padding: 2em;
+}
+
+#appPostBody {
+  padding: 2.5vw;
 }

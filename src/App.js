@@ -32,6 +32,7 @@ export default function App() {
         <div id="mainLeft">This is left</div>
         <div id="mainMiddle">
           <AppPost />
+          <AppPost />
         </div>
         <div id="mainRight">This is right</div>
       </div>
