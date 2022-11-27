@@ -8,6 +8,7 @@ import SignIn from './components/SignIn.jsx';
 import JoinUs from './components/JoinUs.jsx';
 import AppNav from './components/AppMain/AppNav/AppNav.jsx';
 import AppPost from './components/AppMain/AppPost/AppPost.jsx';
+import LeftSide from './components/AppMain/LeftSide/LeftSide.jsx';
 
 export default function App() {
   tailwind.config = {
@@ -29,7 +30,9 @@ export default function App() {
       {/* <SignIn /> */}
       <AppNav />
       <div id="mainLayout">
-        <div id="mainLeft">This is left</div>
+        <div id="mainLeft">
+          <LeftSide />
+        </div>
         <div id="mainMiddle">
           <AppPost />
           <AppPost />
