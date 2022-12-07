@@ -9,7 +9,7 @@ import {
   Typography,
 } from '@material-tailwind/react';
 
-export default function AppPost() {
+export default function AppPost(props) {
   return (
     <div
       id="appPostContainer"
@@ -18,19 +18,18 @@ export default function AppPost() {
       <a href="#">
         <img
           class="rounded-t-lg"
-          src="https://images.unsplash.com/photo-1531132141170-8a72c8b9ec7c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+          src={props.img}
           alt=""
         />
       </a>
       <div id="appPostBody" class="p-5">
         <a href="#">
           <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-            My Journey into Tech
+            {props.title}
           </h5>
         </a>
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-          Here are the biggest enterprise technology acquisitions of 2021 so
-          far, in reverse chronological order.
+        {props.description}
         </p>
         <a
           href="#"
