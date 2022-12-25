@@ -9,6 +9,7 @@ import JoinUs from './components/JoinUs.jsx';
 import AppNav from './components/AppMain/AppNav/AppNav.jsx';
 import AppPost from './components/AppMain/AppPost/AppPost.jsx';
 import LeftSide from './components/AppMain/LeftSide/LeftSide.jsx';
+import RightSide from './components/AppMain/RightSide/RightSide.jsx';
 
 export default function App() {
   tailwind.config = {
@@ -34,12 +35,21 @@ export default function App() {
           <LeftSide />
         </div>
         <div id="mainMiddle">
-          <AppPost img="https://images.unsplash.com/photo-1662894312921-67eabc246633?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80" title="Level Up Fashion" description="Description goes here that is unique. Description goes here that is unique. Description goes here that is unique" />
-          
-          <AppPost img="https://images.unsplash.com/photo-1569594984821-12d20c5a97b5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80" title="Technology & Science" description="Braving the new world of...Description goes here that is unique. Description goes here that is unique" />
+          <AppPost
+            img="https://images.unsplash.com/photo-1662894312921-67eabc246633?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+            title="Level Up Fashion"
+            description="Description goes here that is unique. Description goes here that is unique. Description goes here that is unique"
+          />
 
+          <AppPost
+            img="https://images.unsplash.com/photo-1569594984821-12d20c5a97b5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+            title="Technology & Science"
+            description="Braving the new world of...Description goes here that is unique. Description goes here that is unique"
+          />
         </div>
-        <div id="mainRight">This is right</div>
+        <div id="mainRight">
+          <RightSide />
+        </div>
       </div>
     </div>
   );
