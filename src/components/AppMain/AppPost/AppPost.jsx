@@ -13,7 +13,7 @@ export default function AppPost(props) {
   return (
     <div
       id="appPostContainer"
-      class="max-w-m bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700"
+      class="max-w-m bg-white border border-gray-200 rounded-lg bg-white-800 border-white-700"
     >
       <a href="#">
         <img
@@ -24,7 +24,7 @@ export default function AppPost(props) {
       </a>
       <div id="appPostBody" class="p-5">
         <a href="#">
-          <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+          <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 text-black">
             {props.title}
           </h5>
         </a>

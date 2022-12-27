@@ -10,6 +10,8 @@ import AppNav from './components/AppMain/AppNav/AppNav.jsx';
 import AppPost from './components/AppMain/AppPost/AppPost.jsx';
 import LeftSide from './components/AppMain/LeftSide/LeftSide.jsx';
 import RightSide from './components/AppMain/RightSide/RightSide.jsx';
+import SignUp from './components/AppMain/SignUp/SignUp.jsx';
+import Profile from './components/AppMain/Profile/Profile.jsx';
 
 export default function App() {
   tailwind.config = {
@@ -30,11 +32,16 @@ export default function App() {
       <CTA /> */}
       {/* <SignIn /> */}
       <AppNav />
-      <div id="mainLayout">
+      {/* <div id="mainLayout">
         <div id="mainLeft">
           <LeftSide />
         </div>
         <div id="mainMiddle">
+          <AppPost
+            title="Technology & Science"
+            description="Braving the new world of...Description goes here that is unique. Description goes here that is unique"
+          />
+
           <AppPost
             img="https://images.unsplash.com/photo-1662894312921-67eabc246633?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
             title="Level Up Fashion"
@@ -50,7 +57,9 @@ export default function App() {
         <div id="mainRight">
           <RightSide />
         </div>
-      </div>
+      </div> */}
+      {/* <SignUp /> */}
+      <Profile />
     </div>
   );
 }
