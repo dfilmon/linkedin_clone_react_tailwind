@@ -55,7 +55,7 @@ export default function Profile() {
           <div class="flex items-center justify-center w-full px-6 py-8 lg:h-[32rem] lg:w-1/2">
             <div class="max-w-xl">
               <h2 class="text-3xl font-semibold text-gray-800 text-white lg:text-4xl">
-                Dr Yossief Haileab
+                Phoebe Stacks
               </h2>
               <h2 class=" text-large font-semibold text-gray-800 dark:text-black lg:text-large lg:mt-2 ">
               Pharmacist at Kroger
@@ -110,7 +110,7 @@ export default function Profile() {
                 </p>
 
                 <button class="w-full px-5 py-2 mt-6 text-sm tracking-wider text-white uppercase transition-colors duration-300 transform bg-blue-600 rounded-md lg:w-auto hover:bg-blue-500 focus:outline-none focus:bg-blue-500">
-                  Shop Now
+                  See More
                 </button>
               </div>
             </div>
